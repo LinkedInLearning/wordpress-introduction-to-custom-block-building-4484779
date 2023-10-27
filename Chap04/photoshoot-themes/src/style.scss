@@ -1,0 +1,53 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-create-block-photoshoot-themes {
+    border: 1px solid #707070; // More visible border
+    border-radius: 8px; // Rounded corners for a softer look
+    color: #333; // Darker color for better readability
+    padding: 16px; // More space inside the block
+    background-color: #f8f9fa; // Lighter background for contrast
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Soft shadow for depth
+
+    h2 {
+        text-align: center;
+        color: #1a1a1a; // Even darker color for headings for better visibility
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .image-block {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px; // Added margin for spacing between text and images
+
+        img {
+            max-width: 100%; // Ensures images are responsive
+            height: auto; // Maintain aspect ratio
+            border-radius: 4px; // Rounded corners for images
+        }
+    }
+
+    ul, ol {
+        list-style-type: none; // Removes default list item bullets
+        padding: 0; // Resets default padding
+        margin: 0 auto; // Centers the list with automatic horizontal margins
+        text-align: center; // Centers the text of the list items
+
+        li {
+            display: inline-block; // Aligns list items in the center
+            text-align: left; // Aligns text to the left within each list item
+            margin: 5px 10px; // Adds some spacing around each list item
+        }
+    }
+
+    &:focus-within {
+        box-shadow: 0 0 0 3px #276ef1; // Blue outline for keyboard focus
+    }
+}
+
+

@@ -1,0 +1,49 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-photoshoot-themes {
+  border: 1px solid #707070;
+  border-radius: 8px;
+  color: #333;
+  padding: 16px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.wp-block-create-block-photoshoot-themes h2 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.wp-block-create-block-photoshoot-themes .image-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.wp-block-create-block-photoshoot-themes .image-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.wp-block-create-block-photoshoot-themes ul, .wp-block-create-block-photoshoot-themes ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.wp-block-create-block-photoshoot-themes ul li, .wp-block-create-block-photoshoot-themes ol li {
+  display: inline-block;
+  text-align: left;
+  margin: 5px 10px;
+}
+.wp-block-create-block-photoshoot-themes:focus-within {
+  box-shadow: 0 0 0 3px #276ef1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

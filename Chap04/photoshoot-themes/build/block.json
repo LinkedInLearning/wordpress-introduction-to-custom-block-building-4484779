@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/photoshoot-themes",
+  "version": "0.1.0",
+  "title": "Photoshoot Themes",
+  "category": "widgets",
+  "icon": "camera",
+  "description": "A block that shows different choices for photoshoot theme packages.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true,
+    "customClassName": true,
+    "inserter": true,
+    "reusable": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string",
+      "default": ""
+    },
+    "list": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "photoshoot-themes",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
